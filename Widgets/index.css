@@ -22,3 +22,26 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.tabs{
+  margin-top: 10px;
+  width: 300px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-headers{
+  display:flex;
+  padding: 10px;
+}
+
+.tab-headers h1{
+  padding:10px;
+  border: 1px solid black;
+}
+
+.content{
+  margin: auto;
+
+}
