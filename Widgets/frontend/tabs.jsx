@@ -21,7 +21,6 @@ class Tabs extends React.Component {
   }
 
   showText(index) {
-
     const p = document.querySelector('.content');
     p.innerHTML = this.tabs[index].content;
   }
